@@ -1,0 +1,24 @@
+{
+  "name": "asincronismojs",
+  "version": "1.0.0",
+  "description": "Work with Asyn - JS",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callbacks/index.js",
+    "callback:challenge": "node src/callbacks/challenge.js",
+    "promises": "node src/promises/index.js",
+    "promises:challenge": "node src/promises/challenge.js",
+    "async": "node src/async/index.js",
+    "async:challenge": "node src/async/challenge.js"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
